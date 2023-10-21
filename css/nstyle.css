@@ -21,6 +21,10 @@ html{
         position: relative;
       }
 
+      .cshead{
+        font-size: 34px;
+      }
+
       .sidenav {
         list-style-type: none;
         margin: 0;
@@ -30,7 +34,7 @@ html{
       .sidenav p{
         padding: 8px;
         margin-bottom: 7px;
-        background-color: #3672be;
+        background-color: #3672bce5;
         color: #263b58;
         text-align: center;
         font-family: "McLaren";
@@ -65,6 +69,50 @@ html{
         justify-content: center;
       }
 
+      .title{
+        color: #AD5E3E;
+        font-family: 'Marmelad';
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;  
+        width: 710px;
+        height: 37px;
+      }
+      .dtl{
+        color: #F5A463;
+        font-family: 'Noto Sans Thai Looped';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      .pfn{
+        color: #AD5E3E;
+        padding-top: 10;
+        font-family: 'Marmelad';
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;  
+        width: 710px;
+        height: 37px;
+        text-align: center;
+      }
+
+      .pfct{
+        color: #F5A463;
+        font-family: 'Marmelad';
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;  
+        width: 710px;
+        height: 37px;
+        text-align: center;
+      }
+
       .footer {
         color: #FFFBF3;
         text-align: center;
@@ -76,6 +124,7 @@ html{
         left: 0;
         bottom: 0;
         width: 100%;
+        opacity: 70%;
       }
       
       /* For mobile phones: */

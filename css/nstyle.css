@@ -40,14 +40,6 @@ html{
       .sidenav p:hover {
         color: #FFFBF3;
       }
-
-      .main .name{
-        font-family: "Marmelad";
-        font-size: 28px;
-        text-align: center;
-        color: #AD5E3E;
-        height: 40px;
-      }
       
       .main .nickname{
         font-family: "Marmelad";
@@ -56,6 +48,19 @@ html{
         color: #AD5E3E;
         height: 40px;
         padding-top: 10px;
+      }
+
+      .main .name{
+        font-family: "Marmelad";
+        font-size: 28px;
+        text-align: center;
+        color: #AD5E3E;
+        height: 40px;
+        z-index: 3;
+      }
+
+      .main .myvid{
+        position: center;
       }
 
       .footer {

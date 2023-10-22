@@ -66,13 +66,14 @@ html{
 
       video {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
       }
 
       .title{
         color: #AD5E3E;
         font-family: 'Marmelad';
-        font-size: 30px;
+        font-size: 25px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;  
@@ -82,7 +83,7 @@ html{
       .dtl{
         color: #F5A463;
         font-family: 'Noto Sans Thai Looped';
-        font-size: 20px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -92,24 +93,14 @@ html{
         color: #AD5E3E;
         padding-top: 10;
         font-family: 'Marmelad';
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;  
-        width: 710px;
-        height: 37px;
+        font-size: 20px;
         text-align: center;
       }
 
       .pfct{
         color: #F5A463;
         font-family: 'Marmelad';
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;  
-        width: 710px;
-        height: 37px;
+        font-size: 20px;
         text-align: center;
       }
 
@@ -132,6 +123,12 @@ html{
         width: 100%;
       }
       
+      @media (max-width: 768px) {
+        .onrep {
+          display: none;
+        }
+      } 
+
       @media only screen and (min-width: 600px) {
         /* For tablets: */
         .col-s-1 {width: 8.33%;}
